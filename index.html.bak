@@ -8,32 +8,33 @@
     <script defer src="script.js"></script>
 </head>
 <body>
-    
+    <div class="background">
+        <div class="bubble-container">
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+        </div>
+        </div>
     <header>
         <div class="logo">NanoFuture Insights</div>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="index.html#info-section">Trends</a></li>
-                <li><a href="index.html#contact-section">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Trends</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <div class="motion-background" aria-hidden="true">
-        <div class="bubble" style="left:6%; width:30px; height:30px; animation-duration:8s;"></div>
-        <div class="bubble top" style="left:12%; width:28px; height:28px; animation-duration:9s; background-color: rgba(200,220,255,0.45);"></div>
-        <div class="bubble" style="left:18%; width:48px; height:48px; animation-duration:10s; animation-delay:500ms; background-color: rgba(172,238,251,0.6);"></div>
-        <div class="bubble" style="left:34%; width:60px; height:60px; animation-duration:13s; background-color: rgba(251,249,132,0.7);"></div>
-        <div class="bubble top" style="left:42%; width:36px; height:36px; animation-duration:11s; background-color: rgba(255,240,200,0.35);"></div>
-        <div class="bubble" style="left:50%; width:80px; height:80px; animation-duration:12s; background-color: rgba(161,235,173,0.6);"></div>
-        <div class="bubble" style="left:70%; width:100px; height:100px; animation-duration:15s; background-color: rgba(225,122,205,0.6);"></div>
-        <div class="bubble" style="left:84%; width:40px; height:40px; animation-duration:9s; background-color: rgba(246,200,200,0.6);"></div>
-        <div class="bubble" style="left:90%; width:120px; height:120px; animation-duration:18s; background-color: rgba(231,143,60,0.5);"></div>
-    </div>
+    <div class="motion-background"></div>
 
     <section class="hero">
-        <div class="container hero-content">
+        <div class="hero-content">
             <h1>Explore the World of Nanotechnology</h1>
             <p>The smallest particles are shaping the biggest innovations of tomorrow.</p>
             <button class="cta-btn" id="discover-btn">Discover More</button>
@@ -61,14 +62,6 @@
                 <h3>4. Nano Agriculture</h3>
                 <img src="https://cdn.wikifarmer.com/wp-content/uploads/2023/10/Applications-of-nanotech-in-agri_Cover-photo.jpeg"alt="Nano Agriculture"class="trend-image">
                 <p>Nanotechnology is enhancing agricultural practices through smart pesticides and fertilizers, which release their active ingredients only when needed, improving efficiency and reducing environmental impact. Nano-sensors provide real-time monitoring of soil and crop conditions, allowing for precise management of resources like water and nutrients. This results in higher crop yields and more sustainable farming practices. Additionally, nanomaterials are being used in food packaging to improve shelf life, prevent spoilage, and even detect contamination. These innovations are helping address global food security challenges while promoting more sustainable agricultural systems.</p>
-        </div>
-    </section>
-
-    <!-- Contact Section (on the same first page) -->
-    <section id="contact-section" class="contact-section">
-        <div class="contact-container" style="max-width:800px; margin:40px auto; padding:40px 20px; text-align:center; color:#ddd;">
-            <h2>Contact Us</h2>
-            <p>For inquiries or collaborations, email us at <a href="mailto:info@nanofuture.com">info@nanofuture.com</a></p>
         </div>
     </section>
 
