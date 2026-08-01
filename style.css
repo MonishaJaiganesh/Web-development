@@ -45,6 +45,34 @@ header .container {
     gap: 20px;
 }
 
+/* ensure logo is left-aligned and doesn't center inside the container */
+header .logo, header h2.logo {
+    margin: 0;
+    text-align: left;
+    flex: 0 0 auto;
+}
+
+/* Ensure .site-header (used on About) matches header layout */
+.site-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    background-color: #1d1e22;
+}
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.site-header .logo {
+    margin: 0;
+    text-align: left;
+}
+.site-header nav { margin-left: auto; }
+
 header .logo {
     font-size: 24px;
     color: #ffffff;
